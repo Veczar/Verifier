@@ -42,5 +42,7 @@ public class Verifier {
     public static void main(String[] args) {
         String path = "C:\\Users\\Vecza\\IntelliJ_Projects\\Verifier\\resources\\example.json";
         System.out.println(verifyInputJson(path));
+        path = "C:\\Users\\Vecza\\IntelliJ_Projects\\Verifier\\resources\\example2.json";
+        System.out.println(verifyInputJson(path));
     }
 }
